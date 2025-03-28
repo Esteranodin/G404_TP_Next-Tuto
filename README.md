@@ -2,11 +2,18 @@
 
 ## START
 
+* Install the project's packages : 
+
+    ```bash
+    pnpm i
+    ```
+
 * Starts the development server : 
 
     ```bash
     pnpm run dev
     ```
+
 * Builds the app for production : 
 
     ```bash

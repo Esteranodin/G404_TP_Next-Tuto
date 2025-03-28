@@ -1,3 +1,8 @@
+import '@/app/ui/global.css'
+import {inter} from '@/app/ui/fonts'
+
+// global css importé dans le composant racine de toutes les autres "routes"
+// composant layout = enveloppe de l'application entière
 export default function RootLayout({
   children,
 }: {
@@ -5,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className= {`${inter.className} antialiased`}>{children}</body>
     </html>
   );
 }
