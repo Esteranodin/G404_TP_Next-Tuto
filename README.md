@@ -25,3 +25,6 @@
     ```bash
      pnpm start
     ```
+
+    
+*  Don't forget .env with database connexion
